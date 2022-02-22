@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-size:40px;">GEOG370HW6Pt2 - Andrew Bryant</h1>
+    <p style="font-size:40px;">Today, I present the same chloropleth; a breakdown of the proportion of the population over 25 with a Bachelor's Degree or higher in Maryland by county, but using 3 different categorization styles. I will go over each style, and their pros and cons.</p>
+    <img src="./Equal Count HW6Pt2.png" width = "1500" height = "900" alt="">
+    <p style="font-size:40px;">The first method uses equal counts. Equal counts means that there will be an equal number of areas represented by each color in the graident. For this image, that means about 1/5 of the counties are represented by each shade of green. A pro here is that stark imbalances don't skew the data as much, but a con is that the differences in numbers can be hidden by the categories. Our biggest group exhibits that well; 27.7% to 42.2% are all given the same classification despite the large gap between them.</p>
+    <img src="./Equal Interval HW6Pt2.png" width = "1500" height = "900" alt="">
+    <p style="font-size:40px;">The second method uses equal intervals. Equal intervals means that each grouping will have the same number range; for our example, that means each category represents a range of about 6.6%. A pro here is that numeric differences are much less hidden by the different categories, but a con is that stark imbalances can skew the data. This can be seen in the map as well; all but 3 counties are represented by the bottom 3 categories, causing a decreased ability to distinguish differences among these counties.</p>
+    <img src="./Natural Breaks HW6Pt2.png" width = "1500" height = "900" alt="">
+    <p style="font-size:40px;">The last method uses natural breaks. Natural breaks calculate where gaps in the data already exist, and makes groupings around those breaks. It avoids, as best as possible, the downsides of both equal counts and equal intervals. The only downside may be that the mathematical calculation can neglect the purpose of the chloropleth, such as trying to find a stark abnormality in a region. This map was chosen to demonstrate how Maryland varies intraregionally (i.e. between Montgomery and Frederick counties) while maintaining the stark differences between the D.C. metro, Baltimore metro, and the rural counties of the state.</p>
+</body>
+</html>
